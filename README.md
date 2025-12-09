@@ -9,6 +9,7 @@ look at the jupyter notebook in the playground folder for my work in extracting 
 also request at least 16 GB of ram on ROAR when you're trying to run the notebook
 
 ## REPO STRUCTURE
+```
 ds410-course-proj-redo
 |-- data: this is where downloaded data is stored. right now it is just the paths files for the WARC, WAT, and WET files on Common Crawl
     |-- warc.paths: this file is where the paths to the WARC files on the Common Crawl servers reside
@@ -22,3 +23,4 @@ ds410-course-proj-redo
     |-- sparkhandler.py: this just contains a wrapper class spark sessions. gets you a spark context and a spark session, and handles initializing allocated memory and cpu cores in a simple manner
 |-- get_data.sh: this downloads the path files from Common Crawl servers. this script will need to be modified in order to do analysis of multiple months
 |-- README.md: this file
+```
